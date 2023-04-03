@@ -30,7 +30,7 @@ jobs:
         run: echo Hello, world!
       - name: Copy folder
         run: |
-          cp -r cd /tmp/docs
+          cp -r deploy /tmp/docs
           
       - name: Publish artifacts
         uses: actions/upload-artifact@v2
